@@ -2,4 +2,11 @@
 
 const prompt = require('prompt-sync')()
 
-prompt('Hello, what is your name?')
+const answer1 = prompt('What is the brain of a computer? ')
+const correct_answer1 = 'CPU'
+
+if (answer1 === correct_answer1) {
+  console.log('Correct!')
+} else {
+  console.log('Incorrect!')
+}
