@@ -5,7 +5,7 @@ const prompt = require('prompt-sync')()
 const answer1 = prompt('What is the brain of a computer? ')
 const correct_answer1 = 'CPU'
 
-if (answer1 === correct_answer1) {
+if (answer1.toUpperCase() === correct_answer1) {
   console.log('Correct!')
 } else {
   console.log('Incorrect!')
